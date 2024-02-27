@@ -1,3 +1,3 @@
 # accordion
 
-click [here]() to see demo
+click [here](https://amiryar6391.github.io/accordion/) to see demo
