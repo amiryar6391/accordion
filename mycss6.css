@@ -1,0 +1,53 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box{
+    width: 700px;
+    max-height: 0;
+    background-color:bisque;
+    text-align: justify;
+    overflow: hidden;
+    transition-property: max-height;
+    transition-duration: 0.5s;
+    border-radius: 5px;
+    
+    
+}
+.acco{
+    width: 700px;
+    height: 30px;
+    text-align: left;
+    cursor: pointer;
+    border: none;
+    border-bottom: 1px dotted black;
+}
+.acco::after{
+    content: '\002B';
+    float: right;
+    font-size: 15px;
+    padding-right: 5px;
+    transition-property: transform;
+    transition-duration: 0.5s;
+}
+.acco2::after{
+    content: "\2212";
+    float: right;
+    font-size: 15px;
+    padding-right: 5px;
+    transition-property: transform;
+    transition-duration: 0.5s;
+
+}
+.acco2,.acco:hover{
+    background-color: gray;
+}
